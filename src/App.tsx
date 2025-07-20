@@ -9,7 +9,7 @@ export default function App(): JSX.Element {
   const { handleSearch } = useSearchState();
 
   return (
-    <main className="bg-black min-h-screen text-white">
+    <main className="bg-black min-h-screen text-white pb-8">
       <Header />
       <HeroSection onSearch={handleSearch} />
       <TagSection title="Trending" tags={MOCK_TAGS} />
