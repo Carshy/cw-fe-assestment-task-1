@@ -65,7 +65,7 @@ export function SearchInput({
       
       <Button 
         onClick={handleSearchClick}
-        className="bg-blue-600 hover:bg-blue-700 text-white ml-4 px-6"
+        className="bg-blue-600 hover:bg-blue-700 text-white ml-4 px-6 cursor-pointer"
         disabled={!searchValue.trim()}
         aria-label="Search"
       >
