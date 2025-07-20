@@ -12,7 +12,6 @@ export function useSearchState(initialValue = ''): UseSearchStateReturn {
 
   const handleSearch = useCallback((value: string) => {
     setSearchValue(value);
-    // TODO: Implement actual search logic
     console.log('Searching for:', value);
   }, []);
 

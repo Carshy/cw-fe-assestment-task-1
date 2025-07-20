@@ -4,7 +4,6 @@ import type { TagSectionProps } from '@/types/components';
 
 export function TagSection({ title, tags }: TagSectionProps): JSX.Element {
   const handleTagClick = (tag: string) => {
-    // TODO: Implement tag click logic (e.g., search for the tag)
     console.log('Tag clicked:', tag);
   };
 
